@@ -1,13 +1,14 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+itle: Tadelle Girma - Data Analyst Portfolio
+logo: "/images/profile_photo.png" # Save your photo as 'profile_photo.png' and upload it to the repository's 'images' folder
+description: > 
+  Welcome to my data analytics portfolio! Here, you’ll find projects showcasing my expertise in data analysis, visualization, and statistical modeling.
   <br><br>
-  Second description 
+  I specialize in Python, SQL, and Tableau, with a strong background in economics and business analytics.
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/tadelle-girma/">View My LinkedIn Profile</a> 
+  <br>
+  <a href="https://github.com/username">Visit My GitHub</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+  - jekyll-remote-theme

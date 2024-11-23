@@ -21,7 +21,6 @@ This project involves the classification of drug types using neural networks, ba
 - **Gender Distribution**: 48% of patients are female, and 52% are male.
 - **Age Distribution**: The ages of patients range from 15 to 74 years, with a mean age of 59 years.
 - **Na_to_K Distribution**: The distribution of Na_to_K is right-skewed, indicating that the mean (16.08) is greater than the median (14.94).
-  - **Suggestion for Image**: Right-skewed distribution plot for the Na_to_K variable.
 
 ## Model Performance Evaluation
 
@@ -33,7 +32,6 @@ This project involves the classification of drug types using neural networks, ba
 
 ### Confusion Matrices
 - The confusion matrices show that the neural network correctly classified most instances of `DrugA` and `DrugC`. However, it misclassified some instances of `DrugB` and `DrugY`.
-  - **Suggestion for Image**: Confusion matrix visualizations for both the neural network and logistic regression models for comparison.
 
 ### Comparison with Logistic Regression
 
@@ -68,16 +66,9 @@ This project involves the classification of drug types using neural networks, ba
 - Apply advanced feature engineering techniques to improve model performance, particularly in predicting rare classes.
 - Consider using ensemble methods or hybrid models to improve accuracy for the misclassified drug types.
 
-## Suggested Images to Include
-1. **Right-Skewed Distribution Diagram**: For the `Na_to_K` variable distribution.
-2. **Confusion Matrix for Neural Networks**: Show the matrix where drugs are classified, highlighting correct and incorrect classifications.
-3. **Confusion Matrix for Logistic Regression**: For comparison against the neural network's performance.
-4. **ROC Curve or Precision-Recall Curve**: This will show the performance in more detail for each class.
-5. **Model Architecture Diagram**: A diagram showing the structure of the neural network used in the model.
-
 ## Additional Resources
-- **Dataset**: [drugdataset.csv](./drugdataset.csv) (You can link the actual dataset if needed)
-- **Jupyter Notebooks**: For further exploration of the model and its tuning, share the Jupyter notebook file (`.ipynb`) here.
+- **Dataset**: [drugdataset.csv](./drugdataset.csv)
+
 
 ## Final Thoughts
 This project demonstrates the application of neural networks for a real-world classification problem, with a clear focus on data preparation, model performance evaluation, and potential improvements. The neural network approach outperformed logistic regression, especially in handling more complex relationships within the data.

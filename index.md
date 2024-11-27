@@ -24,7 +24,7 @@ Developed a neural network model in Python to classify drug types based on patie
 - Matplotlib and Seaborn for data visualization
 
 - [View Project Details](./project-drug-classification/project-details.md)
-- [View Jupyter Notebook](https://tadelleg.github.io/project-drug-classification/project-drug-classification.html)
+- [View Jupyter Notebook](./project-drug-classification/project-drug-classification.html)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)

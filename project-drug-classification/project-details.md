@@ -35,7 +35,7 @@ This project involves the classification of drug types using neural networks, ba
 ### Confusion Matrix
 
 <div>
-  <img src="https://github.com/yourusername/yourrepository/blob/main/images/confusion_matrix.png?raw=true" alt="Confusion Matrix" style="width:100%; height:auto;"/>
+  <img src="https://github.com/tadelleg/tadelleg.github.io/blob/96ad20de8c7b9b446769a5085796ce62790006c4/images/confusion_matrix.png?raw=true" alt="Confusion Matrix" style="width:100%; height:auto;"/>
 </div>
 
 The confusion matrix above illustrates the performance of the neural network model across the different drug types.

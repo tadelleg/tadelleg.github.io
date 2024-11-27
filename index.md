@@ -37,6 +37,9 @@ Developed a neural network model in Python to classify drug types based on patie
   <img src="images/roc_curve.png" alt="ROC Curve" />
 </div>
 
+**Note:**
+- It appears neural network achieves exceptional classification accuracy for all drug classes. Most of the models are perfect (AUC = 1), and even the “worst-performing” class (drugY) is nearly perfect. This suggests the model is highly effective for patient system drug classification.
+
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>

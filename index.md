@@ -31,14 +31,6 @@ Developed a neural network model in Python to classify drug types based on patie
 - Patients with normal blood pressure and high cholesterol were likely to be prescribed Drug Type Y.
 - Gender showed minimal impact on drug classification.
 
-**Key Tools Used:**
-- Python
-- TensorFlow/Keras
-- Matplotlib and Seaborn for data visualization
-
-- [View Project Details](./project-drug-classification/project-details.md)
-- [View Jupyter Notebook](./project-drug-classification/project-drug-classification.html)
-
 #### **Receiver Operating Characteristic (ROC) Curve**
 
 <div class="image-container">
@@ -52,6 +44,14 @@ Developed a neural network model in Python to classify drug types based on patie
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+**Key Tools Used:**
+- Python
+- TensorFlow/Keras
+- Matplotlib and Seaborn for data visualization
+
+- [View Project Details](./project-drug-classification/project-details.md)
+- [View Jupyter Notebook](./project-drug-classification/project-drug-classification.html)
 
 ---
  

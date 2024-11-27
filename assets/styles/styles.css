@@ -1,1 +1,35 @@
+/* styles.css */
 
+/* Basic page styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Style for images in a flex container */
+div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+img {
+  max-width: 48%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom project description styles */
+.project-description {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

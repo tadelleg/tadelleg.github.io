@@ -39,6 +39,12 @@ Developed a neural network model in Python to classify drug types based on patie
 - [View Project Details](./project-drug-classification/project-details.md)
 - [View Jupyter Notebook](./project-drug-classification/project-drug-classification.html)
 
+#### **Receiver Operating Characteristic (ROC) Curve**
+
+<div class="image-container">
+  <img src="images/roc_curve.png" alt="ROC Curve" />
+</div>
+
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>

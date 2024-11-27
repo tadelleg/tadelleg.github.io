@@ -1,3 +1,11 @@
+---
+layout: default
+---
+
+<head>
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+
 ### **Portfolio**
 
 ---

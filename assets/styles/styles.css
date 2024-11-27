@@ -2,37 +2,93 @@
 
 /* Basic page styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f0f2f5; /* Slightly softer background */
+  line-height: 1.6;
+  color: #333;
 }
 
+/* Headings */
 h1, h2, h3 {
   color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Adding a subtle gradient to the main content */
+.project-description {
+  padding: 30px;
+  background: linear-gradient(to right, #ffffff, #f8f9fa); /* Soft gradient */
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 1.1em;
 }
 
 /* Style for images in a flex container */
 div.image-container {
   display: flex;
-  justify-content: space-between; /* Space between images */
-  align-items: center; /* Vertically align images */
-  gap: 20px;
-  max-width: 100%; /* Ensure container doesn't stretch more than necessary */
+  justify-content: space-around; /* More flexible spacing */
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
 }
 
 /* Individual image styles */
 div.image-container img {
   max-width: 48%; /* Images will take up 48% of the container width */
-  height: auto; /* Maintain the aspect ratio of the images */
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: auto;
+  border-radius: 15px; /* Rounder corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Stronger shadow for more depth */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* Custom project description styles */
-.project-description {
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Image hover effects */
+div.image-container img:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Larger shadow */
+}
+
+/* Add spacing and style to smaller headers */
+h2, h3 {
+  color: #4A90E2; /* Soft blue for section titles */
+  font-size: 1.4em;
+  margin-top: 30px;
+}
+
+/* Adding a footer style */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+}
+
+/* Small media query for responsiveness on smaller screens */
+@media (max-width: 768px) {
+  div.image-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  div.image-container img {
+    max-width: 90%; /* Ensure images take up more space on smaller screens */
+  }
+  
+  .project-description {
+    padding: 20px;
+    font-size: 1em;
+  }
 }

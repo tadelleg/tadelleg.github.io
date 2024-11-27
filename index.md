@@ -3,7 +3,7 @@
 ---
 
 ### Data Science & Machine Learning Projects
-
+ 
 #### [Drug Type Classification Using Neural Networks](./project-drug-classification/project-details.md)
 
 <div style="display: flex; align-items: center;">

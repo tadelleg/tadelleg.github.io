@@ -31,7 +31,72 @@ This project involves the classification of drug types using neural networks, ba
 - **Accuracy**: The model achieved an overall accuracy of 95%, correctly classifying most of the data.
 
 ### Confusion Matrices
+
+### Confusion Matrix
+
+<div>
+  <img src="https://github.com/yourusername/yourrepository/blob/main/images/confusion_matrix.png?raw=true" alt="Confusion Matrix" style="width:100%; height:auto;"/>
+</div>
+
+The confusion matrix above illustrates the performance of the neural network model across the different drug types.
+
+- The matrix is normalized to show the proportion of correct and incorrect classifications.
+- The ideal model would show all values along the diagonal, indicating perfect classification.
+
+### Confusion Matrix Insights:
 - The confusion matrices show that the neural network correctly classified most instances of `DrugA` and `DrugC`. However, it misclassified some instances of `DrugB` and `DrugY`.
+
+## Model Architecture
+
+#### Model Architecture Diagram
+<div>
+  <img src="./images/model_architecture.png" alt="Model Architecture" style="width:100%; height:auto;"/>
+</div>
+
+### Overview
+The neural network model used in this project consists of several layers, including an input layer, hidden layers, and an output layer. The input layer receives the features of the dataset (age, sex, BP, cholesterol, and Na_to_K). The hidden layers learn the patterns within the data, while the output layer provides a classification into one of the five drug types.
+
+1. **Input Layer**: Contains 5 neurons corresponding to the 5 input features (age, sex, BP, cholesterol, Na_to_K).
+2. **Hidden Layer 1**: 64 neurons, using the ReLU activation function, which allows the network to learn non-linear patterns.
+3. **Hidden Layer 2**: 32 neurons, also using ReLU activation.
+4. **Output Layer**: 5 neurons, each representing one of the five drug types (DrugA, DrugB, DrugC, DrugX, DrugY), with softmax activation to ensure the output is a probability distribution over the drug classes.
+
+### Summary
+- The neural network achieves exceptional classification accuracy for all drug classes, with most drugs being classified perfectly (AUC = 1). Even `DrugY`, the worst-performing class, has an AUC of 0.99, indicating excellent performance overall.
+
+### Conclusion
+The neural network architecture is suitable for multi-class classification tasks and has been designed to balance model complexity with performance. The high accuracy and AUC scores indicate that the model is effectively capturing the underlying relationships between the features and drug types.
+
+
+## ROC Curve Analysis
+
+### ROC Curve Image
+
+<div>
+  <img src="./images/roc_curve.png" alt="ROC Curve" style="width:100%; height:auto;"/>
+</div>
+
+### Analysis of the ROC Curve
+
+The **ROC curve** for the model provides insight into how well the classifier distinguishes between different drug types. The curve plots the **True Positive Rate (TPR)** against the **False Positive Rate (FPR)** for each possible threshold. 
+
+1. **Axes**:
+   - **X-axis**: False Positive Rate (FPR), the proportion of negatives incorrectly classified as positives.
+   - **Y-axis**: True Positive Rate (TPR), the proportion of positives correctly identified.
+
+2. **Curves and Areas**:
+   - The ROC curves for `DrugA`, `DrugB`, `DrugC`, `DrugX`, and `DrugY` demonstrate how well the model distinguishes between each class.
+   - **AUC** values:
+     - `DrugA`, `DrugB`, `DrugC`, and `DrugX`: AUC = 1.00 (perfect discrimination).
+     - `DrugY`: AUC = 0.99 (near-perfect discrimination).
+     - A random guess baseline is shown with AUC = 0.5.
+
+3. **Perfect Models**:
+   - The near-perfect vertical jumps at the left (close to FPR = 0, TPR = 1) indicate excellent performance.
+   - `DrugA`, `DrugB`, `DrugC`, and `DrugX` have perfect sensitivity and specificity.
+
+4. **Minor Imperfection for DrugY**:
+   - `DrugY` shows a slight deviation with AUC = 0.99, indicating a small amount of misclassification.
 
 ### Comparison with Logistic Regression
 
@@ -68,35 +133,6 @@ This project involves the classification of drug types using neural networks, ba
 
 ## Additional Resources
 - **Dataset**: [drugdataset.csv](./drugdataset.csv)
-
-## ROC Curve Analysis
-
-<div>
-  <img src="./images/roc_curve.png" alt="ROC Curve" style="width:100%; height:auto;"/>
-</div>
-
-The ROC curve represents the model's performance for multi-class classification using the One-vs-Rest approach.
-
-1. **Axes**:
-   - **X-axis**: False Positive Rate (FPR), the proportion of negatives incorrectly classified as positives.
-   - **Y-axis**: True Positive Rate (TPR), the proportion of positives correctly identified.
-
-2. **Curves and Areas**:
-   - The ROC curves for `DrugA`, `DrugB`, `DrugC`, `DrugX`, and `DrugY` demonstrate how well the model distinguishes between each class.
-   - **AUC** values:
-     - `DrugA`, `DrugB`, `DrugC`, and `DrugX`: AUC = 1.00 (perfect discrimination).
-     - `DrugY`: AUC = 0.99 (near-perfect discrimination).
-     - A random guess baseline is shown with AUC = 0.5.
-
-3. **Perfect Models**:
-   - The near-perfect vertical jumps at the left (close to FPR = 0, TPR = 1) indicate excellent performance.
-   - `DrugA`, `DrugB`, `DrugC`, and `DrugX` have perfect sensitivity and specificity.
-
-4. **Minor Imperfection for DrugY**:
-   - `DrugY` shows a slight deviation with AUC = 0.99, indicating a small amount of misclassification.
-
-### Summary
-- The neural network achieves exceptional classification accuracy for all drug classes, with most drugs being classified perfectly (AUC = 1). Even `DrugY`, the worst-performing class, has an AUC of 0.99, indicating excellent performance overall.
 
 ## Final Thoughts
 This project demonstrates the application of neural networks for drug classification, with outstanding model performance and promising results for future improvements.

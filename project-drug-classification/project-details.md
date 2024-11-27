@@ -69,6 +69,32 @@ This project involves the classification of drug types using neural networks, ba
 ## Additional Resources
 - **Dataset**: [drugdataset.csv](./drugdataset.csv)
 
+## ROC Curve Analysis
+
+![ROC Curve](./images/roc_curve.png)
+
+The ROC curve represents the model's performance for multi-class classification using the One-vs-Rest approach.
+
+1. **Axes**:
+   - **X-axis**: False Positive Rate (FPR), the proportion of negatives incorrectly classified as positives.
+   - **Y-axis**: True Positive Rate (TPR), the proportion of positives correctly identified.
+
+2. **Curves and Areas**:
+   - The ROC curves for `DrugA`, `DrugB`, `DrugC`, `DrugX`, and `DrugY` demonstrate how well the model distinguishes between each class.
+   - **AUC** values:
+     - `DrugA`, `DrugB`, `DrugC`, and `DrugX`: AUC = 1.00 (perfect discrimination).
+     - `DrugY`: AUC = 0.99 (near-perfect discrimination).
+     - A random guess baseline is shown with AUC = 0.5.
+
+3. **Perfect Models**:
+   - The near-perfect vertical jumps at the left (close to FPR = 0, TPR = 1) indicate excellent performance.
+   - `DrugA`, `DrugB`, `DrugC`, and `DrugX` have perfect sensitivity and specificity.
+
+4. **Minor Imperfection for DrugY**:
+   - `DrugY` shows a slight deviation with AUC = 0.99, indicating a small amount of misclassification.
+
+### Summary
+- The neural network achieves exceptional classification accuracy for all drug classes, with most drugs being classified perfectly (AUC = 1). Even `DrugY`, the worst-performing class, has an AUC of 0.99, indicating excellent performance overall.
 
 ## Final Thoughts
-This project demonstrates the application of neural networks for a real-world classification problem, with a clear focus on data preparation, model performance evaluation, and potential improvements. The neural network approach outperformed logistic regression, especially in handling more complex relationships within the data.
+This project demonstrates the application of neural networks for drug classification, with outstanding model performance and promising results for future improvements.

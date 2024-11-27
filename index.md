@@ -35,7 +35,7 @@ Developed a neural network model in Python to classify drug types based on patie
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-
+ 
 ### Category Name 2
 
 - [Project 1 Title](http://example.com/)

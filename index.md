@@ -8,7 +8,7 @@
 
 <div style="display: flex; align-items: center; max-width: 100%; justify-content: space-between;">
   <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail" style="max-width: 48%; height: auto;"/>
-  <img src="images/model.png" alt="Model Architecture" style="max-width: 48%; height: auto;"/>
+  <img src="images/model_architecture.png" alt="Model Architecture" style="max-width: 48%; height: auto;"/>
 </div>
 
 

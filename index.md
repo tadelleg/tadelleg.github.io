@@ -3,12 +3,12 @@
 ---
 
 ### Data Science & Machine Learning Projects
- 
+
 #### [Drug Type Classification Using Neural Networks](./project-drug-classification/project-details.md)
 
-<div style="display: flex; align-items: center;">
-  <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail" height="300" style="margin-right: 20px;"/>
-  <img src="images/model_architecture.png" alt="Model Architecture" height="300"/>
+<div style="display: flex; align-items: center; max-width: 100%; justify-content: space-between;">
+  <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail" style="max-width: 48%; height: auto;"/>
+  <img src="images/model.png" alt="Model Architecture" style="max-width: 48%; height: auto;"/>
 </div>
 
 

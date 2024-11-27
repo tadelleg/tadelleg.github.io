@@ -5,8 +5,14 @@
 ### Data Science & Machine Learning Projects
 
 #### [Drug Type Classification Using Neural Networks](./project-drug-classification/project-details.md)
-<img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail"/>
-<img src="images/model_architecture.png" alt="Model Architecture" />
+
+<div style="float: left; margin-right: 20px;">
+  <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail" width="300"/>
+</div>
+
+<div style="float: left;">
+  <img src="images/model_architecture.png" alt="Model Architecture" width="300"/>
+</div>
 
 
 Developed a neural network model in Python to classify drug types based on patient data. The dataset included features such as age, gender, blood pressure levels, cholesterol levels, and the sodium-to-potassium ratio. Key highlights of the project:

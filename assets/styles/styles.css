@@ -13,15 +13,18 @@ h1, h2, h3 {
 }
 
 /* Style for images in a flex container */
-div {
+div.image-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Space between images */
+  align-items: center; /* Vertically align images */
   gap: 20px;
+  max-width: 100%; /* Ensure container doesn't stretch more than necessary */
 }
 
-img {
-  max-width: 48%;
-  height: auto;
+/* Individual image styles */
+div.image-container img {
+  max-width: 48%; /* Images will take up 48% of the container width */
+  height: auto; /* Maintain the aspect ratio of the images */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

@@ -71,7 +71,9 @@ This project involves the classification of drug types using neural networks, ba
 
 ## ROC Curve Analysis
 
-![ROC Curve](./images/roc_curve.png)
+<div>
+  <img src="./images/roc_curve.png" alt="ROC Curve" style="width:100%; height:auto;"/>
+</div>
 
 The ROC curve represents the model's performance for multi-class classification using the One-vs-Rest approach.
 

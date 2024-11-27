@@ -6,12 +6,9 @@
 
 #### [Drug Type Classification Using Neural Networks](./project-drug-classification/project-details.md)
 
-<div style="float: left; margin-right: 20px;">
-  <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail" width="300"/>
-</div>
-
-<div style="float: left;">
-  <img src="images/model_architecture.png" alt="Model Architecture" width="300"/>
+<div style="display: flex;">
+  <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail" width="300" style="margin-right: 20px;"/>
+  <img src="images/model.png" alt="Model Architecture" width="300"/>
 </div>
 
 

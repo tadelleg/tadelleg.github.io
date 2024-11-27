@@ -6,10 +6,10 @@
 
 #### [Drug Type Classification Using Neural Networks](./project-drug-classification/project-details.md)
 
-<div style="display: flex;">
-  <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail" width="300" style="margin-right: 20px;"/>
-  <img src="images/model_architecture.png" alt="Model Architecture" width="300"/>
-</div>  
+<div style="display: flex; align-items: center;">
+  <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail" height="300" style="margin-right: 20px;"/>
+  <img src="images/model.png" alt="Model Architecture" height="300"/>
+</div>
 
 
 Developed a neural network model in Python to classify drug types based on patient data. The dataset included features such as age, gender, blood pressure levels, cholesterol levels, and the sodium-to-potassium ratio. Key highlights of the project:

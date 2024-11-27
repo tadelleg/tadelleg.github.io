@@ -17,7 +17,7 @@ This project involves the classification of drug types using neural networks, ba
 - Neural networks are complex models capable of distinguishing between multi-class classifications. 
 - The architecture used in this project is a generalized logistic regression model combined with hidden layers that add weights and biases to each input, enabling the model to learn non-linear patterns in the data.
 
-### Key Findings
+### Descriptive Statistics
 - **Gender Distribution**: 48% of patients are female, and 52% are male.
 - **Age Distribution**: The ages of patients range from 15 to 74 years, with a mean age of 59 years.
 - **Na_to_K Distribution**: The distribution of Na_to_K is right-skewed, indicating that the mean (16.08) is greater than the median (14.94).

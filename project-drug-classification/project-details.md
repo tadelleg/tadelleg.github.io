@@ -49,9 +49,11 @@ The confusion matrix above illustrates the performance of the neural network mod
 ## Model Architecture
 
 #### Model Architecture Diagram
+
 <div>
-  <img src="./images/model_architecture.png" alt="Model Architecture" style="width:100%; height:auto;"/>
+  <img src="https://github.com/tadelleg/tadelleg.github.io/blob/d7a66258b1dcaf3a49e4f7d5c676ead3fc733846/images/model_architecture.png?raw=true" alt="Model Architecture" style="width:100%; height:auto;"/>
 </div>
+
 
 ### Overview
 The neural network model used in this project consists of several layers, including an input layer, hidden layers, and an output layer. The input layer receives the features of the dataset (age, sex, BP, cholesterol, and Na_to_K). The hidden layers learn the patterns within the data, while the output layer provides a classification into one of the five drug types.
@@ -73,7 +75,7 @@ The neural network architecture is suitable for multi-class classification tasks
 ### ROC Curve Image
 
 <div>
-  <img src="./images/roc_curve.png" alt="ROC Curve" style="width:100%; height:auto;"/>
+  <img src="https://github.com/tadelleg/tadelleg.github.io/blob/d7a66258b1dcaf3a49e4f7d5c676ead3fc733846/images/roc_curve.png?raw=true" alt="ROC Curve" style="width:100%; height:auto;"/>
 </div>
 
 ### Analysis of the ROC Curve

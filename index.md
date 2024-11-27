@@ -8,7 +8,7 @@
 <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail"/>
 
 #### Model Architecture Diagram
-![Model Architecture](images/model.png)
+![Model Architecture](images/model_architecture.png)
 
 Developed a neural network model in Python to classify drug types based on patient data. The dataset included features such as age, gender, blood pressure levels, cholesterol levels, and the sodium-to-potassium ratio. Key highlights of the project:
 

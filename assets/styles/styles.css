@@ -19,6 +19,40 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
+/* Navigation bar */
+nav {
+  background-color: #4A90E2; /* Soft blue */
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #f0f2f5; /* Lighter hover color */
+}
+
 /* Adding a subtle gradient to the main content */
 .project-description {
   padding: 30px;
@@ -59,14 +93,7 @@ div.image-container img:hover {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Larger shadow */
 }
 
-/* Add spacing and style to smaller headers */
-h2, h3 {
-  color: #4A90E2; /* Soft blue for section titles */
-  font-size: 1.4em;
-  margin-top: 30px;
-}
-
-/* Adding a footer style */
+/* Footer styles */
 footer {
   background-color: #333;
   color: #fff;
@@ -75,7 +102,18 @@ footer {
   font-size: 0.9em;
 }
 
-/* Small media query for responsiveness on smaller screens */
+footer a {
+  color: #4A90E2;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+
+footer a:hover {
+  color: #357ABD;
+}
+
+/* Media queries for responsiveness */
 @media (max-width: 768px) {
   div.image-container {
     flex-direction: column;

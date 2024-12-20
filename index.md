@@ -13,7 +13,7 @@ title: "Portfolio"
 
 ### **Data Science & Machine Learning Projects**
 
-#### [Drug Type Classification Using Neural Networks](./projects/project-drug-classification/project-details.md)
+#### [Drug Type Classification Using Neural Networks](./project-drug-classification/project-details.md)
 
 <div class="image-container">
   <img src="images/confusion_matrix.png" alt="Confusion Matrix Thumbnail" />
@@ -36,7 +36,7 @@ Developed a neural network model in Python to classify drug types based on patie
 
 ---
 
-#### [Credit Default Prediction Model](./projects/project-credit-default/project-details.md)
+#### [Credit Default Prediction Model](./project-credit-default/project-details.md)
 
 <div class="image-container">
   <img src="images/credit_default_roc_curve.png" alt="ROC Curve Thumbnail" />
@@ -54,15 +54,15 @@ Developed a **logistic regression model** to predict credit defaults based on ap
 - Higher loan amounts and lower credit history quality were the strongest predictors of defaults.
 - Missing account balances were indicative of lower default risk, possibly due to wealthier applicants.
 
-- [View Project Details](./projects/project-credit-default/project-details.md)
-- [View Jupyter Notebook](./projects/project-credit-default/project-credit-default.html)
+- [View Project Details](./project-credit-default/project-details.md)
+- [View Jupyter Notebook](./project-credit-default/project-credit-default.html)
 
 ---
 
 ### **Additional Projects**
 
-- [Drug Type Classification Using Neural Networks](./projects/project-drug-classification/project-details.md)
-- [Credit Default Prediction Model](./projects/project-credit-default/project-details.md)
+- [Drug Type Classification Using Neural Networks](./project-drug-classification/project-details.md)
+- [Credit Default Prediction Model](./project-credit-default/project-details.md)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)

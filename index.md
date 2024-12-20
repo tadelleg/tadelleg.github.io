@@ -19,7 +19,6 @@ layout: default
   <img src="images/model_architecture.png" alt="Model Architecture" style="max-width: 48%; height: auto;"/>
 </div>
 
-
 Developed a neural network model in Python to classify drug types based on patient data. The dataset included features such as age, gender, blood pressure levels, cholesterol levels, and the sodium-to-potassium ratio. Key highlights of the project:
 
 - Achieved **95% accuracy** in classifying drug types.
@@ -31,33 +30,32 @@ Developed a neural network model in Python to classify drug types based on patie
 - Patients with normal blood pressure and high cholesterol were likely to be prescribed Drug Type Y.
 - Gender showed minimal impact on drug classification.
 
-#### **Receiver Operating Characteristic (ROC) Curve**
-
-<div class="image-container">
-  <img src="images/roc_curve.png" alt="ROC Curve" />
-</div>
-
-**Note:**
-- It appears neural network achieves exceptional classification accuracy for all drug classes. Most of the models are perfect (AUC = 1), and even the “worst-performing” class (drugY) is nearly perfect. This suggests the model is highly effective for patient system drug classification.
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-**Key Tools Used:**
-- Python
-- TensorFlow/Keras
-- Matplotlib and Seaborn for data visualization
-
 - [View Project Details](./project-drug-classification/project-details.md)
 - [View Jupyter Notebook](./project-drug-classification/project-drug-classification.html)
 
 ---
- 
+
+#### [Credit Default Prediction Model](./project-credit-default/project-details.md)
+
+<div style="display: flex; align-items: center; max-width: 100%; justify-content: space-between;">
+  <img src="images/credit_default_roc_curve.png" alt="ROC Curve Thumbnail" style="max-width: 48%; height: auto;"/>
+  <img src="images/credit_default_coefficients.png" alt="Coefficients Thumbnail" style="max-width: 48%; height: auto;"/>
+</div>
+
+Developed a **logistic regression model** to predict credit defaults based on applicant financial data. The dataset included 1,000 records with features such as income percentage, loan amount, age, and account balances.
+
+**Key highlights:**
+- Optimized for minimizing **false negatives** due to the financial impact of incorrectly approving risky loans.
+- Improved recall for detecting defaults by 19% through **SMOTE oversampling**.
+- Achieved an ROC-AUC score of **0.79**.
+
+**Insights:**
+- Higher loan amounts and lower credit history quality were the strongest predictors of defaults.
+- Missing account balances were indicative of lower default risk, possibly due to wealthier applicants.
+
+- [View Project Details](./project-credit-default/project-details.md)
+---
+
 ### Category Name 2
 
 - [Project 1 Title](http://example.com/)
@@ -67,10 +65,5 @@ Developed a neural network model in Python to classify drug types based on patie
 - [Project 5 Title](http://example.com/)
 
 ---
-
-
-
-
----
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+<!-- Remove above link if you don't want to attribute -->

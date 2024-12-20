@@ -58,8 +58,8 @@ Developed a **logistic regression model** to predict credit defaults based on ap
 
 ### Category Name 2
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
+- [Drug Type Classification Using Neural Networks](./project-drug-classification/project-details.md)
+- [Credit Default Prediction Model](./project-credit-default/project-details.md)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)

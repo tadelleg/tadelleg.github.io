@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Credit Default Prediction
 
 **Project Overview:**
@@ -53,4 +57,4 @@ Developed a logistic regression model to predict whether loan applicants would d
 - Fine-tune hyperparameters using grid search.
 - Investigate ensemble methods like Random Forest or Gradient Boosting.
 
-- [View Jupyter Notebook](./project-credit-default/project-credit-default.html)
+- [View Jupyter Notebook](./project-credit-default.html)

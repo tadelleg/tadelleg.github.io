@@ -55,7 +55,7 @@ Developed a **logistic regression model** to predict credit defaults based on ap
 - Missing account balances were indicative of lower default risk, possibly due to wealthier applicants.
 
 - [View Project Details](./project-credit-default/project-details.md)
-- [View Jupyter Notebook](./project-credit-default/project-credit-default.html)
+- [View Jupyter Notebook](./project-credit-default/credit-default-code.html)
 
 ---
 

@@ -39,8 +39,8 @@ Developed a neural network model in Python to classify drug types based on patie
 #### [Credit Default Prediction Model](./project-credit-default/project-details.md)
 
 <div class="image-container">
-  <img src="images/credit_default_roc_curve.png" alt="ROC Curve Thumbnail" />
-  <img src="images/credit_default_coefficients.png" alt="Coefficients Thumbnail" />
+  <img src="images/confusion_matrix_classsification_report_credit.png" alt="Confusion Matrix Classification Report" />
+  <img src="images/roc_curve_credit.png" alt="ROC Curve Credit" />
 </div>
 
 Developed a **logistic regression model** to predict credit defaults based on applicant financial data. The dataset included 1,000 records with features such as income percentage, loan amount, age, and account balances.
